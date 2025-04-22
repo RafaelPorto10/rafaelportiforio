@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script> <!-- Animações -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"> <!-- CSS para animações -->
+</head>
+<body>
+  <header>
+      <button id="toggle-dark-mode">🌙</button>
+    </div>
+    <nav>
+    </nav>
+    <div class="logo">
+      <h1>Meu Portfólio</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#certificados">Certificados</a></li>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção "Sobre" com Foto e Currículo -->
+  <section id="sobre">
+    <div class="container">
+      <h1>Sobre Mim</h1>
+      <div class="sobre-conteudo">
+        <div class="foto-perfil">
+          <!-- Substitua "sua-foto.jpg" pelo nome do arquivo da sua foto -->
+          <img src="sua-foto.jpg" alt="Sua Foto de Perfil">
+        </div>
+        <div class="descricao">
+          <p>Olá! Sou [Seu Nome], desenvolvedor web apaixonado por criar experiências digitais incríveis. Com uma sólida experiência em HTML, CSS, JavaScript e outras tecnologias, busco sempre aprimorar minhas habilidades e aprender algo novo.</p>
+          
+          <!-- Botão para Baixar o Currículo -->
+          <a href="curriculo.pdf" download="Currículo_[SeuNome].pdf">Baixar Currículo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Habilidades -->
+  <section id="habilidades" data-aos="fade-up">
+    <div class="container">
+      <h1>Habilidades</h1>
+      <div class="habilidade">
+        <h2>HTML & CSS</h2>
+        <p>Com experiência avançada em HTML5 e CSS3, consigo criar layouts responsivos e interfaces de usuário modernas.</p>
+      </div>
+      <div class="habilidade">
+        <h2>JavaScript</h2>
+        <p>Forte conhecimento em JavaScript para criar interatividade e melhorar a experiência do usuário.</p>
+      </div>
+      <div class="habilidade">
+        <h2>React</h2>
+        <p>Experiência em desenvolvimento de aplicativos interativos e eficientes com ReactJS.</p>
+      </div>
+      <!-- Adicione mais habilidades aqui -->
+    </div>
+  </section>
+
+  <!-- Seção de Projetos -->
+  <section id="projetos" data-aos="fade-up">
+    <div class="container">
+      <h1>Meus Projetos</h1>
+      <div class="projetos-lista">
+        <div class="projeto">
+          <h2>Projeto 1</h2>
+          <p>The Last Of Us</p>
+          <a href="https://github.com/RafaelPorto10/the-last-of-us.git" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projeto">
+          <h2>Projeto 2</h2>
+          <p>PokeDevs</p>
+          <a href="https://rafaelporto10.github.io/projeto-pekedev/" target="_blank">Ver no GitHub</a>
+        </div>
+        <!-- Adicione mais projetos aqui -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Educação -->
+  <section id="educacao" data-aos="fade-up">
+    <div class="container">
+      <h1>Educação & Certificados</h1>
+      <ul>
+        <li><strong>Curso Tecnico Programação </strong> - GRAU BARREIRO - 2024/2025</li>
+        <li><strong></strong>Desenvolvimentos de Sistemas - PROZ Educação - 2025</li>
+        <!-- Adicione mais cursos aqui -->
+      </ul>
+    </div>
+ 
+      <!-- Adicione mais depoimentos aqui -->
+    </div>
+  </section>
+
+  <!-- Seção de Blog ou Artigos -->
+  
+  <!-- Seção de Projetos em Destaque -->
+  <section id="projetos-destaque" data-aos="fade-up">
+    <div class="container">
+      <h1>Projetos em Destaque</h1>
+      <div class="projeto-destaque">
+        <img src="projeto1.jpg" alt="Projeto 1">
+        <h2><a href="#">Projeto 1 - Site E-commerce</a></h2>
+        <p>Este projeto foi um site de e-commerce criado com React e Node.js. Ele possui funcionalidades como carrinho de compras e integração com APIs de pagamento.</p>
+      </div>
+      <!-- Adicione mais projetos em destaque aqui -->
+    </div>
+  </section>
+
+  <!-- Seção "Contato" -->
+  <section id="contato" data-aos="fade-up">
+    <div class="container">
+      <h1>Contato</h1>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Meu Portfólio</p>
+      <div class="redes-sociais">
+        <a href="https://github.com/seunome" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/seunome/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    AOS.init();  // Inicializa as animações
+  </script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,549 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .logo h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #007BFF;
+}
+
+/* Seção "Sobre" */
+#sobre {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+#sobre .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#sobre .foto-perfil img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #007BFF;
+  object-fit: cover;
+}
+
+#sobre .descricao {
+  max-width: 600px;
+}
+
+#sobre h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+#sobre a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+#sobre a:hover {
+  background-color: #0056b3;
+}
+
+/* Seção de Habilidades */
+#habilidades {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#habilidades .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.habilidade {
+  margin-bottom: 30px;
+}
+
+.habilidade h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.habilidade p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Seção de Projetos */
+#projetos {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+#projetos .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projetos-lista {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  width: 48%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.projeto h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.projeto p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.projeto a {
+  color: #007BFF;
+  font-size: 1.1em;
+}
+
+.projeto a:hover {
+  text-decoration: underline;
+}
+
+/* Seção de Educação */
+#educacao {
+  padding: 80px 0;
+  background-color: #f4f4f4;
+}
+
+#educacao .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#educacao ul {
+  list-style: none;
+}
+
+#educacao li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Seção de Depoimentos */
+#depoimentos {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+#depoimentos .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.depoimento {
+  margin-bottom: 30px;
+}
+
+.depoimento p {
+  font-size: 1.5em;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.depoimento p:last-child {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Seção de Artigos */
+#blog {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+#blog .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.artigo {
+  margin-bottom: 30px;
+}
+
+.artigo h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.artigo p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.artigo a {
+  font-size: 1.2em;
+  color: #007BFF;
+}
+
+.artigo a:hover {
+  text-decoration: underline;
+}
+
+/* Seção de Projetos em Destaque */
+#projetos-destaque {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+#projetos-destaque .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projeto-destaque {
+  margin-bottom: 30px;
+}
+
+.projeto-destaque img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.projeto-destaque h2 {
+  font-size: 1.8em;
+  margin-top: 15px;
+}
+
+.projeto-destaque p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Seção de Contato */
+#contato {
+  padding: 80px 0;
+  background-color: #f4f4f4;
+}
+
+#contato .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contato label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#contato input,
+#contato textarea {
+  font-size: 1.1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#contato button {
+  font-size: 1.3em;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contato button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.1em;
+}
+
+footer .redes-sociais a {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+footer .redes-sociais a:hover {
+  color: #007BFF;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #sobre .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sobre .descricao {
+    margin-top: 20px;
+  }
+
+  .projetos-lista {
+    flex-direction: column;
+  }
+
+  .projeto {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .artigo {
+    margin-bottom: 20px;
+  }
+}
+/* styles.css */
+
+/* Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header #toggle-dark-mode {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+.projetos-lista {
+  display: flex;
+  gap: 20px;
+}
+
+.projeto {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
+
+.certificados, .testemunhos {
+  display: flex;
+  gap: 20px;
+}
+
+.certificado, .testemunho {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer .redes-sociais a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+button#toggle-dark-mode {
+  background-color: transparent;
+  color: #fff;
+}
+
+button#toggle-dark-mode:hover {
+  color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0d6efd;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+}
+
+/* Animações */
+[data-aos="fade-up"] {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+}
+
+
+
+
